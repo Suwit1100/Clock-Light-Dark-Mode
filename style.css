@@ -5,11 +5,18 @@
     font-family: "Noto Sans Thai Looped", sans-serif;
 }
 
+:root {
+    --primary-color: white;
+    --secondary-color: #212529;
+}
+
 .content {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 93vh;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .text-40 {
@@ -17,7 +24,17 @@
     font-weight: 900;
 }
 
+.toggle-mode {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#footer {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
 .content.dark {
-    background-color: #212529;
-    color: white;
+    --primary-color: #212529;
+    --secondary-color: white;
 }
