@@ -16,3 +16,8 @@
     font-size: 40px;
     font-weight: 900;
 }
+
+.content.dark {
+    background-color: #212529;
+    color: white;
+}
